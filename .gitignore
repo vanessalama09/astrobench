@@ -1,0 +1,25 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+venv/
+py39/
+
+# secrets
+.env
+config.py
+configs/config.py
+
+# data and large artifacts
+data/raw/
+data/processed/
+data/images/
+benchmark_results/
+results/
+*.csv
+*.jsonl
+*.log
+
+# generated figures can be rebuilt
+figures/generated/
+paper/figures/generated/
