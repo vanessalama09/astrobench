@@ -72,7 +72,7 @@ For the second-judge experiments using the AmSC/i2 OpenAI-compatible endpoint:
 ```bash
 export AMSC_I2_API_KEY="..."
 export JUDGE_OPENAI_API_KEY="$AMSC_I2_API_KEY"
-export JUDGE_OPENAI_BASE_URL="<judge-url>"
+export JUDGE_OPENAI_BASE_URL="https://api.i2-core.american-science-cloud.org/v1"
 export SECOND_JUDGE_MODEL="claude-sonnet-4-6"
 ```
 
