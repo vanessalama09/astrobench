@@ -1,3 +1,4 @@
+# macOS / Python
 .DS_Store
 __pycache__/
 *.pyc
@@ -14,12 +15,24 @@ configs/config.py
 data/raw/
 data/processed/
 data/images/
+data/usaaao_qa_local/
 benchmark_results/
 results/
 *.csv
 *.jsonl
 *.log
 
-# generated figures can be rebuilt
+# generated figures/results
 figures/generated/
 paper/figures/generated/
+*_stats.json
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
